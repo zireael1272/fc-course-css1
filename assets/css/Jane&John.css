@@ -190,3 +190,42 @@ header:hover {
 .weeding-data-text {
   margin: 15px 0;
 }
+
+.register-section {
+  text-align: center;
+}
+
+.register-section-title {
+  font-size: 36px;
+  margin: 10px 0;
+  letter-spacing: 4px;
+  font-weight: 400;
+}
+
+.register-section-text {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 4px;
+}
+
+.button-container {
+  padding: 24px 0;
+}
+
+.register-section-button {
+  padding: 8px 60px;
+  border-radius: 4px;
+  background-color: #f44336;
+  font-size: 24px;
+  color: #fff;
+  box-sizing: border-box;
+  border: none;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 2;
+}
+
+.register-section-button:hover {
+  color: #000;
+  background-color: #ccc;
+}

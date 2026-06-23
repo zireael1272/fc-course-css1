@@ -117,3 +117,24 @@ header:hover {
   color: #000;
   background-color: #ccc;
 }
+
+.invated-section {
+  background-image: url("/assets/images/flowers.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  text-align: center;
+  color: #fff;
+}
+
+.invated-section-title {
+  font-size: 64px;
+  font-weight: normal;
+  margin: 250px 0 10px 0;
+}
+
+.invated-section-description {
+  font-size: 30px;
+  margin: 45px 0 10px 0;
+}

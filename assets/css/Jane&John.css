@@ -73,3 +73,47 @@ header:hover {
   font-size: 30px;
   font-weight: bolder;
 }
+
+.couple-section {
+  padding: 64px 16px;
+  text-align: center;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.couple-section-title {
+  margin: 10px 0;
+  color: #757575;
+  font-size: 36px;
+}
+
+.couple-section-photo {
+  width: 100%;
+  margin: 32px 0;
+}
+
+.couple-section-description {
+  line-height: 2;
+  text-align: start;
+  margin: 10px 0;
+  font-style: italic;
+}
+
+.couple-section-container {
+  margin: 15px 0;
+}
+
+.couple-section-button {
+  background-color: #000;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-size: 18px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.couple-section-button:hover {
+  color: #000;
+  background-color: #ccc;
+}

@@ -43,3 +43,33 @@ header:hover {
   opacity: 100%;
   color: #fff;
 }
+
+.hero-section {
+  background-image: url("/assets/images/wedding_couple.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 4px;
+}
+
+.hero-section-title {
+  font-size: 64px;
+  font-weight: normal;
+  font-weight: 400;
+  margin-top: 224px;
+}
+
+.hero-description {
+  margin: 10px 0;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.hero-date {
+  margin: 10px 0;
+  font-size: 30px;
+  font-weight: bolder;
+}

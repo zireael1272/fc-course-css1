@@ -4,26 +4,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/Jane&John.css" />
     <title>Jane&John</title>
   </head>
   <body>
     <header>
       <nav>
-        <a href="#">Home</a>
-        <a href="#">Jane & Jone</a>
-        <a href="#">Weeding</a>
-        <a href="#">RSVP</a>
+        <a href="#" class="header-nav">Home</a>
+        <a href="#" class="header-nav">Jane & Jone</a>
+        <a href="#" class="header-nav">Weeding</a>
+        <a href="#" class="header-nav" id="rsvp-link">RSVP</a>
       </nav>
     </header>
-    <section>
+    <section class="hero-section">
       <h1>Jane & John</h1>
-      <p>Are getting married</p>
-      <p>17.07.2017</p>
+      <p class="hero-description">Are getting married</p>
+      <p class="hero-date">17.07.2017</p>
     </section>
-    <section>
-      <h2>Jane & John</h2>
-      <img src="" alt="" />
-      <p>
+    <section class="couple-section">
+      <h2 class="couple-section-title">Jane & John</h2>
+      <img
+        src="/assets/images/wedding_couple2.jpg"
+        alt="couple"
+        class="couple-section-photo"
+      />
+      <p class="couple-section-description">
         You all know us. And we all know you. We are getting married lorem ipsum
         dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
         ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -34,7 +39,9 @@
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
         commodo consequat.
       </p>
-      <a href="#">Weeding Details</a>
+      <div class="couple-section-container">
+        <a href="#" class="couple-section-button">Weeding Details</a>
+      </div>
     </section>
     <section>
       <h2>You Are Invited</h2>

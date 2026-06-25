@@ -116,3 +116,35 @@ img {
   padding: 1em 0;
   max-width: 65%;
 }
+
+.contact-section {
+  color: #fff;
+}
+
+.contact-container {
+  padding: 2em;
+  display: inline-block;
+  box-sizing: border-box;
+  max-width: 49%;
+  background-color: #2690d4;
+}
+
+.about-container {
+  padding: 2em;
+  display: inline-block;
+  box-sizing: border-box;
+  max-width: 49%;
+  background-color: #333;
+}
+
+.contact-section-title {
+  padding: 1em 0;
+}
+
+.contact-section-text {
+  padding: 1em 0;
+}
+
+.contact-email {
+  padding: 1em 0;
+}

@@ -148,3 +148,24 @@ img {
 .contact-email {
   padding: 1em 0;
 }
+
+footer {
+  background-color: #000;
+  padding: 2em;
+  color: #fff;
+}
+
+.footer-text-1 {
+  display: inline-block;
+  margin-right: 220px;
+}
+
+.footer-text-2 {
+  display: inline-block;
+  margin-left: 280px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #2690d4;
+}

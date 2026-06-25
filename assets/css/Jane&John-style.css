@@ -164,21 +164,13 @@ header:hover {
 
 .weeding-data-time-container {
   text-align: center;
-  font-size: 0;
 }
 
-.when-container {
-  display: inline-block;
-  width: 50%;
-  box-sizing: border-box;
-  font-size: 15px;
-}
-
+.when-container,
 .where-container {
   display: inline-block;
-  width: 50%;
+  width: 49%;
   box-sizing: border-box;
-  font-size: 15px;
 }
 
 .weeding-data-title {

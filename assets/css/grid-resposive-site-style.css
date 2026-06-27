@@ -129,6 +129,7 @@ img {
   max-width: 50%;
   background-color: #2690d4;
   font-size: 1.1rem;
+  vertical-align: top;
 }
 
 .about-container {
@@ -138,6 +139,7 @@ img {
   max-width: 50%;
   background-color: #333;
   font-size: 1.1rem;
+  vertical-align: top;
 }
 
 .contact-section-title {
@@ -150,6 +152,8 @@ img {
 
 .contact-email {
   padding: 1em 0;
+  text-decoration: none;
+  color: inherit;
 }
 
 footer {

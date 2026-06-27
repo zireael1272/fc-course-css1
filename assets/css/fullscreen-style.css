@@ -63,14 +63,19 @@ a:hover {
   background-color: #f4f4f4;
 }
 
+.block-3 {
+  font-size: 0;
+}
+
 .small-block-1,
 .small-block-2,
 .small-block-3 {
   text-align: start;
   display: inline-block;
-  max-width: 33.1%;
+  max-width: 33.3%;
   box-sizing: border-box;
   padding: 20px;
+  font-size: 17px;
 }
 
 .small-block-1 {

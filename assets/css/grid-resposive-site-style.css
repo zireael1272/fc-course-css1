@@ -119,22 +119,25 @@ img {
 
 .contact-section {
   color: #fff;
+  font-size: 0;
 }
 
 .contact-container {
   padding: 2em;
   display: inline-block;
   box-sizing: border-box;
-  max-width: 49%;
+  max-width: 50%;
   background-color: #2690d4;
+  font-size: 1.1rem;
 }
 
 .about-container {
   padding: 2em;
   display: inline-block;
   box-sizing: border-box;
-  max-width: 49%;
+  max-width: 50%;
   background-color: #333;
+  font-size: 1.1rem;
 }
 
 .contact-section-title {

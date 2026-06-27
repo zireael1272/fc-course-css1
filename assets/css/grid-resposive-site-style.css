@@ -74,6 +74,8 @@ body {
 .cards-container {
   max-width: 980px;
   margin: 0 auto;
+  column-count: 3;
+  column-width: 31%;
 }
 
 .card-content {
@@ -81,11 +83,7 @@ body {
 }
 
 .card {
-  display: inline-block;
-  max-width: 28%;
-  box-sizing: border-box;
   background-color: #fff;
-  margin-right: 14px;
   margin-bottom: 1em;
 }
 

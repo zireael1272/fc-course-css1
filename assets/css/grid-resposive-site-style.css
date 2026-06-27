@@ -120,7 +120,8 @@ img {
   font-size: 0;
 }
 
-.contact-container {
+.contact-container,
+.about-container {
   padding: 2em;
   display: inline-block;
   box-sizing: border-box;
@@ -131,19 +132,10 @@ img {
 }
 
 .about-container {
-  padding: 2em;
-  display: inline-block;
-  box-sizing: border-box;
-  max-width: 50%;
   background-color: #333;
-  font-size: 1.1rem;
-  vertical-align: top;
 }
 
-.contact-section-title {
-  padding: 1em 0;
-}
-
+.contact-section-title,
 .contact-section-text {
   padding: 1em 0;
 }
@@ -156,18 +148,16 @@ img {
 
 footer {
   background-color: #000;
-  padding: 2em;
+  padding: 2rem;
   color: #fff;
+  font-size: 0;
 }
 
-.footer-text-1 {
-  display: inline-block;
-  margin-right: 220px;
-}
-
+.footer-text-1,
 .footer-text-2 {
   display: inline-block;
-  margin-left: 280px;
+  width: 50%;
+  font-size: 1.1rem;
 }
 
 .footer-link {

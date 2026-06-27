@@ -104,6 +104,11 @@ img {
   padding: 2em;
 }
 
+.we-handle-container {
+  margin: 0 auto;
+  max-width: 1500px;
+}
+
 .we-handle-title {
   font-size: 1.5em;
   padding: 1em 0;
